@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuenta atrás</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Cuenta atrás</h1>
+    <div class="countdown" aria-live="polite">
+      <div class="time-segment"><span id="days" class="num">0</span><span class="label">días</span></div>
+      <div class="sep">:</div>
+      <div class="time-segment"><span id="hours" class="num">0</span><span class="label">horas</span></div>
+      <div class="sep">:</div>
+      <div class="time-segment"><span id="minutes" class="num">0</span><span class="label">min</span></div>
+      <div class="sep">:</div>
+      <div class="time-segment"><span id="seconds" class="num">0</span><span class="label">seg</span></div>
+    </div>
+
+    <div class="progress-wrapper">
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <div id="progress-text" class="progress-text">0%</div>
+    </div>
+
+    <noscript>
+      Necesitas activar JavaScript para ver la cuenta atrás.
+    </noscript>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
