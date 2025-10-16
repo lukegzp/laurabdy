@@ -2,10 +2,10 @@
   'use strict';
 
   // Configurar fechas (zona local del visitante)
-  // Inicio: 17 Oct a las 00:00
+  // Inicio: 1 Oct a las 00:00
   // Fin: 22 Nov a las 18:00
   // No mostramos explícitamente estas fechas en la UI.
-  const start = new Date(new Date().getFullYear(), 9, 17, 0, 0, 0, 0); // mes 9 = Octubre
+  const start = new Date(new Date().getFullYear(), 9, 1, 0, 0, 0, 0); // mes 9 = Octubre
   const end = new Date(new Date().getFullYear(), 10, 22, 18, 0, 0, 0);   // mes 10 = Noviembre
 
   const $days = document.getElementById('days');
